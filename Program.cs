@@ -16,7 +16,7 @@ namespace ResponsiPemrograman4274
             Console.WriteLine("No Nik/Nama            Gaji Bulanan");
             Console.WriteLine("-----------------------------------");
             Console.WriteLine("1. " + data1.nik + " " + data1.nama + "     " + data1.gajibulanan);
-            Console.WriteLine("1. " + data2.nik + " " + data2.nama + "      " + data2.gajibulanan);
+            Console.WriteLine("2. " + data2.nik + " " + data2.nama + "      " + data2.gajibulanan);
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("Asyiiiiik kenaikan gaji 10%!!");
@@ -24,7 +24,7 @@ namespace ResponsiPemrograman4274
             Console.WriteLine("No Nik/Nama            Gaji Bulanan");
             Console.WriteLine("-----------------------------------");
             Console.WriteLine("1. " + data1.nik + " " + data1.nama + "     " + data1.gajibulanan*110/100);
-            Console.WriteLine("1. " + data2.nik + " " + data2.nama + "      " + data2.gajibulanan*110/100);
+            Console.WriteLine("2. " + data2.nik + " " + data2.nama + "      " + data2.gajibulanan*110/100);
 
             Console.ReadKey();
         }
